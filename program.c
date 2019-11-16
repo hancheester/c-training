@@ -8,8 +8,7 @@ int main()
 	fahrenheit = celcius * 9 / 5 + 32;
 	kelvin = celcius + 273.15f;
 
-	// Set 2 decimal points
-	printf("%f C = %f F = %f K\n",
+	printf("%.2f C = %.2f F = %.2f K\n",
 			celcius,
 			fahrenheit,
 			kelvin);
