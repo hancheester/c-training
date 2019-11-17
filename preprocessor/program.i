@@ -6,5 +6,6 @@ int main()
 {
  multiply(4, 5); /* and then */ multiply(6, 7);
  multiply(19, 19);
+ multiply(100, 100);
 }
 // end of program.c
