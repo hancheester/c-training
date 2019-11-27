@@ -15,7 +15,9 @@ typedef struct Pixel Pixel;
 //     float Y;
 // } Pixel;
 
-
+// unsigned char -> 0 - 255
+// signed char -> -128 - 127
+// sizeof(char) = 1 byte
 typedef unsigned char byte;
 
 struct Color
