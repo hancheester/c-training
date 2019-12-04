@@ -9,4 +9,14 @@ int main()
 	{
 		printf("%d\n", numbers[i]);
 	} 
+
+	printf("\n");
+
+	int * p = numbers;
+	int * end = p + size;
+
+	for(; p != end; p++)
+	{
+		printf("%d\n", *p);
+	}
 }
